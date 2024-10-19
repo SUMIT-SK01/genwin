@@ -7,7 +7,7 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // Serve static files from the 'public' directory
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'docs')));
 
 let users = [];
 
