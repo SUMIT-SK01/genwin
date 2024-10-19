@@ -1,0 +1,24 @@
+{
+  "name": "genwin",
+  "version": "1.0.0",
+  "description": "testing login",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUMIT-SK01/genwin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SUMIT-SK01/genwin/issues"
+  },
+  "homepage": "https://github.com/SUMIT-SK01/genwin#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
+  }
+}
